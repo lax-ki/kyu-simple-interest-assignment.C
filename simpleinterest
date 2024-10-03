@@ -1,0 +1,14 @@
+//program to calculate simple interest
+//preprocessor directive- scanf(), printf();
+# include <stdio.h>
+int main () {
+    int principle= 20000;
+    int rate= 12;
+    int time=4;
+    int simpleinterest=principle*time*rate/100;
+    printf("The principle is %d\n", principle);
+    printf("The time is %d\n", time);
+    printf("The rate is %d\n", rate);
+    printf("The simple iterst is %d\n", simpleinterest);
+    return 0;
+}
